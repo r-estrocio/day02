@@ -24,6 +24,7 @@ body {
   font-size: 13px;
   line-height: 16px;
   letter-spacing: 0.25px;
+  padding: 6px;
 }
 
 .navbar a {
@@ -63,4 +64,55 @@ body {
 a.googleapps:hover {
   background-color: rgba(232,234,237,0.08);
   border-radius: 50%;
+}
+
+.googlelogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: auto;
+}
+
+.googlesearch {
+  margin-top:6px;
+  padding: 20px;
+  height: 60px;
+  max-height: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbox {
+  height: 44px;
+  width: 582px;
+  max-width: 584px;
+  border: 1px;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: rgb(95, 99, 104);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.searchbutton {
+  fill: rgb(154, 160, 166);
+  height: 20px;
+  width: 20px;
+  }
+
+.textinput {
+  color: rgba(255, 255, 255);
+  background-color: rgb(32, 33, 36);
+  font-size: 16px;
+  height: 34px;
+  width: 527px;
+  border: none;
+}
+
+.textinput:focus {
+  outline: none;
 }
