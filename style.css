@@ -1,0 +1,66 @@
+body {
+  background: #202124;
+  background-size: auto;
+}
+
+.page {
+  font-family: arial, sans-serif;
+}
+
+.page a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.page a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+}
+
+.navbar a {
+  margin-right: 15px;
+}
+
+.navbar a.sign_in_button {
+  padding: 9px 23px;
+  border-width: 1px;
+  margin-right: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-width: 96px;
+  height: 36px;
+  background-color: rgb(138, 180, 248);
+  color: #202124;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-decoration-color:rgb(32, 33, 36);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a.sign_in_button:hover {
+    text-decoration: none;
+}
+
+.googleapps {
+  color: rgba(255, 255, 255, 0.87);
+  fill: rgba(255, 255, 255, 0.87);
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+a.googleapps:hover {
+  background-color: rgba(232,234,237,0.08);
+  border-radius: 50%;
+}
